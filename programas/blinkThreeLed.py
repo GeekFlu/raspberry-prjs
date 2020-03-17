@@ -11,14 +11,13 @@ ledGreen.off()
 
 while True:
 	ledRed.on()
-	time.sleep(6)
+	time.sleep(1)
 	ledRed.off()
 
-	ledYellow.on()
-	time.sleep(3)
-	ledYellow.off()
-
 	ledGreen.on()
-	time.sleep(2)
+	time.sleep(1)
 	ledGreen.off()
 
+	ledYellow.on()
+	time.sleep(1)
+	ledYellow.off()
