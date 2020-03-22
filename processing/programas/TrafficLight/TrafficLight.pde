@@ -28,3 +28,10 @@ void draw() {
     background(102); //set the fill color of led off
   }
 }
+
+void keyPressed() {
+  GPIO.releasePin(GPIO_YELLOW);
+  GPIO.releasePin(GPIO_GREEN);
+  GPIO.releasePin(GPIO_RED);
+  exit();
+}
