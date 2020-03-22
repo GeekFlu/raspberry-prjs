@@ -7,6 +7,8 @@ int GPIO_RED = 27;
 boolean ledState = false;    //define ledState
 
 void setup() {
+  println("Available LEDs:");
+  printArray(LED.list());
   size(500, 500);
   frameRate(1);        //set frame rate
   GPIO.pinMode(GPIO_YELLOW, GPIO.OUTPUT);    //set the ledPin to output mode
